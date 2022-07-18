@@ -4,6 +4,7 @@
  */
 
 /* global console, document, Excel, Office */
+import "../functions/functions"; // support the functions dynamically added by CustomFunctionsMetadataPlugin in webpack
 
 // The initialize function must be run each time a new page is loaded
 Office.onReady(() => {
